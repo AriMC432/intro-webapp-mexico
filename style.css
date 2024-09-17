@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; }
+h1 { margin-bottom: 20px; }
+
+.controles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.control { text-align: center; }
+input[type=range] {
+    width: 200px;
+    margin-top: 10px;
+    display: block;
+}
+span {
+    display: block;
+    margin-top: 5px;
+}
+.container {
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.bandera {
+    display: flex;
+    width: 1080px;
+    height: 400px;
+}
+.seccion { flex: 1; }
+.verde { background-color: #008200; }
+.blanco {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rojo { background-color: #800000;}
+.escudo { height: 250px;}
+
+
